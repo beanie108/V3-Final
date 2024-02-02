@@ -133,6 +133,12 @@ void showSchoolUserMenu(Administrator& admin) {
 }
 
 int main() {
+
+    // Display the header information at the start
+    std::cout << "Tamariki School Lunch Ordering System\n";  
+    std::cout << "Ph +64-3-308123\n";  
+    std::cout << "www.tamarikischool.co.nz\n\n";  
+
     Administrator admin;
     std::string choice;
     std::string username, password;
