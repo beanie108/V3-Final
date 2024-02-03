@@ -1,1 +1,2 @@
-1-admin-admin789
+username: admin
+password: admin789
