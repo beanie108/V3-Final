@@ -16,7 +16,7 @@ void Administrator::addUser(const std::string& username, const std::string& pass
     if (users.find(username) == users.end()) {
         users[username] = User(username, password, userType);
         if (showSuccessMessage) {
-            std::cout << "User" << username << "added successfully.\n";
+            std::cout << "User " << username << " added successfully.\n";
         }
         else {
             std::cout << "User already exists.\n";
