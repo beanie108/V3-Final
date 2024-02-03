@@ -6,8 +6,8 @@
 
 class User {
 public:
-    std::string username;
-    std::string password;
+    std::string username; 
+    std::string password; 
     UserType userType;
 
     User();
